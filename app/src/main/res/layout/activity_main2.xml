@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Main2Activity">
+    <ImageView
+        android:id="@+id/imageslpash"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="280dp"
+        android:background="@drawable/icon"/>
+    <TextView
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:text="form"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#C1BCBC"
+        />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="FACEBOOK"
+        android:fontFamily="casual"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:layout_below="@+id/form"
+        />
+
+
+</RelativeLayout>
