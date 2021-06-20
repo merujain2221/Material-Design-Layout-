@@ -11,8 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity"></activity>
-
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/NoActionBar"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".call_Activity" />
         <activity android:name=".Main2Activity">
             <intent-filter>
